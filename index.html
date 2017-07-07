@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Multiply the numbers</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="prefetch" href="style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Multiply Me</h1>
+    </header>
+    <main class="container">
+      <form id="answer-form">
+        <div class="input-group row problem">
+          <input type="text" readonly id="number">
+          <span class="times">
+            &times;
+          </span>
+          <input type="text" readonly id="multiplier">
+        </div>
+        <div class="input-group">
+          <label class="sr-only">Your answer</label>
+          <input class="input-answer" id="input-answer" type="text" placeholder="your answer">
+          <input type="text" readonly id="message">
+        </div>
+        <div class="button-group">
+          <button class="btn-answer">Submit</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family:'source sans pro',monospace;
+}
+.container{
+  max-width:640px;
+  margin:0 auto;
+}
+header{
+  background: hsl(192, 77%, 90%);
+  box-sizing: border-box;
+  padding:10px;
+  margin-bottom:120px;
+}
+header h1{
+  margin: 0;
+  text-align: center;
+}
+#answer-form{
+  margin:0 auto;
+  padding:0 10px;
+  max-width: 480px;
+}
+.input-group>input{
+  display:block;
+}
+.input-group>label{
+  display: block;
+}
+.sr-only{
+  
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.problem>input{
+  flex:1 0 0;
+  max-width: 120px;
+  padding:10px;
+  border:1px solid hsl(128,50%,50%);
+  border-radius: 3px;
+}
+.times {
+  font-size:36px;
+  display: block;
+  padding:10px;
+  color:hsl(128,50%,50%);
+}
