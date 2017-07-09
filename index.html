@@ -20,17 +20,21 @@
           </span>
           <input type="text" readonly id="multiplier">
         </div>
-        <div class="input-group">
-          <label class="sr-only">Your answer</label>
-          <input class="input-answer" id="input-answer" type="text" placeholder="your answer">
-          <input type="text" readonly id="message">
+        <div class="input-group answer">
+          <label class="answer-label sr-only">Your answer</label>
+          <input class="input-answer" id="input-answer" type="text" placeholder="--">
         </div>
+
         <div class="button-group">
-          <button class="btn-answer">Submit</button>
+          <button id="answer-button" class="btn-answer">
+            Submit
+          </button>
+          <input type="text" readonly id="message">
         </div>
       </form>
     </main>
     <footer>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

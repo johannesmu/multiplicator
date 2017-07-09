@@ -31,6 +31,11 @@ header h1{
 .sr-only{
   
 }
+.answer-label{
+  text-align: center;
+  padding:10px;
+  color:#aeaeae;
+}
 .row{
   display: flex;
   flex-direction: row;
@@ -38,15 +43,58 @@ header h1{
   align-items: center;
 }
 .problem>input{
+  font-size:36px;
   flex:1 0 0;
   max-width: 120px;
   padding:10px;
-  border:1px solid hsl(128,50%,50%);
+  border:1px solid transparent;
   border-radius: 3px;
+  text-align: center;
+  user-select:none;
 }
 .times {
   font-size:36px;
   display: block;
   padding:10px;
   color:hsl(128,50%,50%);
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.answer>label{
+  font-size:24px;
+  color:hsl(128,50%,50%);
+}
+.input-answer{
+  max-width: 200px;
+  padding:5px;
+  border:1px solid hsl(128,50%,50%);
+  font-size:24px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.btn-answer {
+  padding:10px;
+  color:white;
+  background:hsl(128,50%,50%);
+  border:1px solid hsl(128,50%,50%);
+  border-radius:4px;
+  width:200px;
+  display: block;
+  margin:10px auto;
+}
+
+#message {
+  width:200px;
+  display: block;
+  margin:0 auto;
+  font-size:24px;
+  border:1px solid transparent;
+  border-radius: 3px;
 }
